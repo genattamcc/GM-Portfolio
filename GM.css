@@ -86,7 +86,11 @@ h2{
     height: 100%;
     object-fit: cover;
   }
-
+  .ViewImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 
 .centerText{
     position: absolute; /*lets text float over image*/
