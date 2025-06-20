@@ -93,7 +93,19 @@ h2{
     height: 100%;
     object-fit: contain;
   }
-
+  .Sticker{
+    background-color: #bbb;
+    position: relative; /*must be relative so absolute text stays inside*/
+    width: 15%;
+    height: 15;
+    object-fit: cover;
+    float: left;
+    margin:1.6%;
+    text-align: center;
+    /*puts border inside instead of outside*/
+    box-sizing: border-box;
+    border: 10pt solid black;
+}
 .centerText{
     position: absolute; /*lets text float over image*/
     width:100%;
