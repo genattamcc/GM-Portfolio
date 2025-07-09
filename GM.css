@@ -51,8 +51,8 @@ h2{
     margin:auto;
     width:5%;
     height:5vw;
-    /* background-image:url("IMG/Logo.png");
-    background-size: cover; */
+    background-image:url("IMG/Logo.png");
+    background-size: cover;
 }
 
 #centerBox{
