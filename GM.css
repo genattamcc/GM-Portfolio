@@ -2,7 +2,8 @@
 
 body{
     background-color:black;
-    color:rgb(160, 144, 255);
+    /* color:rgb(160, 144, 255); */
+    color:#c42bff;
     font-size: 18pt;
     /* margin-left: 2%;
     margin-right:2%; */
@@ -35,7 +36,7 @@ h1{
     height:calc(85%);
     font-size: 100pt;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:black;
+    color:#c42bff;
 }
 h2{
     font-size: xxx-large;
@@ -50,8 +51,8 @@ h2{
     margin:auto;
     width:5%;
     height:5vw;
-    background-image:url("IMG/Logo.png");
-    background-size: cover;
+    /* background-image:url("IMG/Logo.png");
+    background-size: cover; */
 }
 
 #centerBox{
@@ -110,7 +111,7 @@ h2{
   .Sticker{
     background-color: rgb(105, 99, 109);
     position: relative; /*must be relative so absolute text stays inside*/
-    width: 15%;
+    width: 16.5%;
     height: 15;
     object-fit: cover;
     float: left;
@@ -159,7 +160,7 @@ h2{
 
 
 
-TESTING GROUNDS
+/* TESTING GROUNDS */
 
 * {box-sizing:border-box}
 
