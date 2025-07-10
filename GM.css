@@ -36,12 +36,21 @@ h1{
     height:calc(85%);
     font-size: 100pt;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#c42bff;
+    /* color:#c42bff; */
+    color:#b700ff;
+    text-shadow: 4pt 4pt rgb(33, 0, 48);
 }
 h2{
     font-size: xxx-large;
     text-align: center;
     /* float:center; */
+}
+h3{
+    font-size: xx-large;
+    text-align: center;
+    /* float:center; */
+    color:#b792e2;
+    text-shadow:3pt 3pt rgb(49, 1, 70);
 }
 
 #logoFloat{
@@ -49,10 +58,11 @@ h2{
     top:0;
     left:0;
     margin:auto;
-    width:5%;
-    height:5vw;
-    background-image:url("IMG/Logo.png");
-    background-size: cover;
+    width:7%;
+    height:7vw;
+    /* border:2pt solid white; */
+    /* background-image:url("IMG/Logo.png");
+    background-size: cover; */
 }
 
 #centerBox{
@@ -60,6 +70,7 @@ h2{
     width: 30%;
     float: left;
     margin:1.6%;
+    margin-top:0;
 }
 
 #FullBox{
@@ -98,7 +109,7 @@ h2{
   .Poster{
     position: relative; /*must be relative so absolute text stays inside*/
     width: 30%;
-    height: 50vw;
+    height: 45vw;
     object-fit: cover;
     float: left;
     margin:1.6%;
@@ -137,117 +148,29 @@ h2{
     color:black;
     background-image: url("IMG/purplebg.jpg");
     text-align: center;
-    padding-top: 0pt;
+    padding-top: 10pt;
     margin-top: 0;
     width:100%;
-    height:45vw;
+    /* height:45vw; */
+    height:50vw;
     /* height:75vw */
     /* border:3pt solid orange; */
 
 }
 
 #foot{
-    position:sticky;
-    top:0;
+  clear:both;
+    /* position:sticky; */
+    /* top:0; */
     font-size: large;
     text-align: center;
+    padding-top:50px;
+    /* border:2pt solid white; */
 }
 
-
-
-
-
-
-
-
-/* TESTING GROUNDS */
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  width: 20%px;
-  height:20%;
-
-  position: relative;
-  margin: auto;
+a:link{
+  color:#b800ff;
 }
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 1%;
-  color: blueviolet;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #FF000f;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+a:visited{
+  color:#a500e7;
 }
